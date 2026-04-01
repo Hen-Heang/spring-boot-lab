@@ -3,6 +3,102 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-data-jpa" />
+        <module name="spring-security-jwt-authorization" />
+        <module name="clients" />
+        <module name="notification-services" />
+        <module name="Spring-Boot-Data-Redis" />
+        <module name="spring-bean-scope" />
+        <module name="spring-data-rest" />
+        <module name="spring-boot-drools-rule-engine" />
+        <module name="eureka-server" />
+        <module name="spring-boot-3-bean-config" />
+        <module name="spring-boot-elasticsearch" />
+        <module name="spring-boot-rating-limit" />
+        <module name="spring-boot-3-data-jpa" />
+        <module name="#2 spring jpa one to one relationship" />
+        <module name="reload-spring-application" />
+        <module name="security-inmemory-config" />
+        <module name="fraud-services" />
+        <module name="spring-boot-3-jdbc" />
+        <module name="consumer-services" />
+        <module name="fix-jetty-with-spring-boot-3" />
+        <module name="spring-boot-3-web-app" />
+        <module name="customer-services" />
+        <module name="generic-rest-controller" />
+        <module name="spring-boot-3-first-view" />
+        <module name="spring-boot-redis-stack" />
+        <module name="#1 spring boot jdbc-template" />
+        <module name="spring-boot-data-redis-cache" />
+        <module name="spring-cloud-sleuth-zipkin" />
+        <module name="calculate-income-tax" />
+        <module name="rabbitmq" />
+        <module name="Cambodia-Address-Rest-API" />
+        <module name="rest-api" />
+        <module name="rabbitmq-message-with-spring-boot-3" />
+        <module name="config-server" />
+        <module name="spring-boot-qr-code" />
+        <module name="spring-data-jpa-relationship" />
+        <module name="security-default-config" />
+        <module name="producer-service" />
+        <module name="spring-boot-3-getting-started" />
+        <module name="api-gateway" />
+        <module name="security-database-config" />
+        <module name="multiple-file-upload" />
+        <module name="spring-boot-graphql" />
+      </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="#1 spring boot jdbc-template" options="-parameters" />
+      <module name="#2 spring jpa one to one relationship" options="-parameters" />
+      <module name="Cambodia-Address-Rest-API" options="-parameters" />
+      <module name="Spring-Boot-Data-Redis" options="-parameters" />
+      <module name="api-gateway" options="-parameters" />
+      <module name="calculate-income-tax" options="-parameters" />
+      <module name="clients" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="consumer-services" options="-parameters" />
+      <module name="customer-services" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="fix-jetty-with-spring-boot-3" options="-parameters" />
+      <module name="fraud-services" options="-parameters" />
+      <module name="generic-rest-controller" options="-parameters" />
+      <module name="multiple-file-upload" options="-parameters" />
+      <module name="notification-services" options="-parameters" />
+      <module name="producer-service" options="-parameters" />
+      <module name="rabbitmq" options="-parameters" />
+      <module name="rabbitmq-message-with-spring-boot-3" options="-parameters" />
+      <module name="rean-microservices" options="-parameters" />
+      <module name="reload-spring-application" options="-parameters" />
+      <module name="rest-api" options="-parameters" />
+      <module name="security-database-config" options="-parameters" />
+      <module name="security-default-config" options="-parameters" />
+      <module name="security-inmemory-config" options="-parameters" />
+      <module name="spring-bean-scope" options="-parameters" />
+      <module name="spring-boot-3-bean-config" options="-parameters" />
+      <module name="spring-boot-3-data-jpa" options="-parameters" />
+      <module name="spring-boot-3-first-view" options="-parameters" />
+      <module name="spring-boot-3-getting-started" options="-parameters" />
+      <module name="spring-boot-3-jdbc" options="-parameters" />
+      <module name="spring-boot-3-web-app" options="-parameters" />
+      <module name="spring-boot-data-redis-cache" options="-parameters" />
+      <module name="spring-boot-drools-rule-engine" options="-parameters" />
+      <module name="spring-boot-elasticsearch" options="-parameters" />
+      <module name="spring-boot-graphql" options="-parameters" />
+      <module name="spring-boot-qr-code" options="-parameters" />
+      <module name="spring-boot-rating-limit" options="-parameters" />
+      <module name="spring-boot-redis-stack" options="-parameters" />
+      <module name="spring-cloud-sleuth-zipkin" options="-parameters" />
+      <module name="spring-data-jpa" options="-parameters" />
+      <module name="spring-data-jpa-relationship" options="-parameters" />
+      <module name="spring-data-rest" options="-parameters" />
+      <module name="spring-security-jwt-authorization" options="-parameters" />
+    </option>
   </component>
 </project>
