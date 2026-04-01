@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af52dc9-3d59-413a-af8e-6d9bb0d05a88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rean-spring-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rean-spring-framework.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#4 spring-boot-rating-limit/src/main/java/com/rean/service/RatingLimitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#4 spring-boot-rating-limit/src/main/java/com/rean/service/RatingLimitService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/SpringBootDroolsRuleEngineApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/config/DroolsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/config/DroolsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/test/java/com/rean/SpringBootDroolsRuleEngineApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#2 spring-boot-3-first-view/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#2 spring-boot-3-first-view/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/logs/app_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/logs/app_log.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/java/com/springdatajpa/SpringDataJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/java/com/springdatajpa/SpringDataJpaApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="7af52dc9-3d59-413a-af8e-6d9bb0d05a88" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +108,7 @@
       <workItem from="1775025684915" duration="262000" />
       <workItem from="1775025998693" duration="110000" />
       <workItem from="1775026401159" duration="3170000" />
-      <workItem from="1775029628542" duration="2267000" />
+      <workItem from="1775029628542" duration="4128000" />
     </task>
     <servers />
   </component>
