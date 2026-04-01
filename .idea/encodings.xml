@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/0. Spring Framework Tips/#2 generic-rest-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/0. Spring Framework Tips/#4 spring-boot-rating-limit/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/0. Spring Framework Tips/#7 Cambodia-Address-Rest-API/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/0. Spring Framework Tips/#8 multiple-file-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/1. Introduction To Spring Boot/#1 spring-boot-3-getting-started/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/1. Introduction To Spring Boot/#2 spring-boot-3-first-view/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2. Web Application with Spring Boot/#1 spring-boot-3-bean-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2. Web Application with Spring Boot/#1.1 spring-bean-scope/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/2. Web Application with Spring Boot/#2 spring-boot-3-web-app/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#10 spring-boot-graphql/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#2 spring-boot-3-jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#3 spring-boot-3-data-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#4 spring-data-rest/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#3 spring-data-jpa-relationship/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#6 Spring-Boot-Data-Redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#7 spring-boot-redis-stack/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#8 spring-boot-data-redis-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/3. Data Access with Spring/#9 spring-boot-elasticsearch/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/rest-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-database-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-default-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-inmemory-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/4. Security with Spring Boot/#2 spring-security-jwt-authorization/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/consumer-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/producer-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/5. Messaging with Spring Boot/rabbitmq-message-with-spring-boot-3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7. Spring Integration and Spring Cloud/#1 reload-spring-application/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/7. Spring Integration and Spring Cloud/#2 spring-cloud-sleuth-zipkin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/api-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/clients/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/customer-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/fraud-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/notification-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservices with spring boot 3/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
