@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#2 generic-rest-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#4 spring-boot-rating-limit/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#7 Cambodia-Address-Rest-API/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#8 multiple-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Introduction To Spring Boot/#1 spring-boot-3-getting-started/pom.xml" />
+        <option value="$PROJECT_DIR$/1. Introduction To Spring Boot/#2 spring-boot-3-first-view/pom.xml" />
+        <option value="$PROJECT_DIR$/2. Web Application with Spring Boot/#1 spring-boot-3-bean-config/pom.xml" />
+        <option value="$PROJECT_DIR$/2. Web Application with Spring Boot/#1.1 spring-bean-scope/pom.xml" />
+        <option value="$PROJECT_DIR$/2. Web Application with Spring Boot/#2 spring-boot-3-web-app/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#1 spring boot jdbc-template/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#2 spring-boot-3-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#3 spring-boot-3-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#4 spring-data-rest/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#2 spring jpa one to one relationship/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#3 spring-data-jpa-relationship/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#6 Spring-Boot-Data-Redis/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#7 spring-boot-redis-stack/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#8 spring-boot-data-redis-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#9 spring-boot-elasticsearch/pom.xml" />
+        <option value="$PROJECT_DIR$/3. Data Access with Spring/#10 spring-boot-graphql/pom.xml" />
+        <option value="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/pom.xml" />
+        <option value="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/rest-api/pom.xml" />
+        <option value="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-database-config/pom.xml" />
+        <option value="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-default-config/pom.xml" />
+        <option value="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-inmemory-config/pom.xml" />
+        <option value="$PROJECT_DIR$/4. Security with Spring Boot/#2 spring-security-jwt-authorization/pom.xml" />
+        <option value="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/pom.xml" />
+        <option value="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/consumer-services/pom.xml" />
+        <option value="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/producer-service/pom.xml" />
+        <option value="$PROJECT_DIR$/5. Messaging with Spring Boot/rabbitmq-message-with-spring-boot-3/pom.xml" />
+        <option value="$PROJECT_DIR$/7. Spring Integration and Spring Cloud/#1 reload-spring-application/pom.xml" />
+        <option value="$PROJECT_DIR$/7. Spring Integration and Spring Cloud/#2 spring-cloud-sleuth-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/api-gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/clients/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/customer-services/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/fraud-services/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/notification-services/pom.xml" />
+        <option value="$PROJECT_DIR$/microservices with spring boot 3/rabbitmq/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jdk-17.0.17.10-hotspot" project-jdk-type="JavaSDK" />
+</project>

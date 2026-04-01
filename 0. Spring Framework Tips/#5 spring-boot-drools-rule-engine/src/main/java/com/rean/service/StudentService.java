@@ -24,7 +24,7 @@ public class StudentService {
         kieSession.setGlobal("studentResp", studentResp);
         kieSession.insert(studentRequest);
         kieSession.fireAllRules();
-        kieSession.dispose();;
+        kieSession.dispose();
         return studentResp;
     }
 }

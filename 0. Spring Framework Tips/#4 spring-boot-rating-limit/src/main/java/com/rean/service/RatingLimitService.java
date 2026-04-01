@@ -18,7 +18,7 @@ public class RatingLimitService {
     }
 
     public Bandwidth getBucketBandwidth(String arg) {
-        if("GOLDA".equals(arg))
+        if("GOLD".equals(arg))
             return Bandwidth.classic(5, Refill.intervally(5, Duration.ofMinutes(1)));
         return Bandwidth.classic(2, Refill.intervally(2, Duration.ofMinutes(1)));
     }

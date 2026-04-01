@@ -1,33 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7af52dc9-3d59-413a-af8e-6d9bb0d05a88" name="Changes" comment="" />
+    <list default="true" id="7af52dc9-3d59-413a-af8e-6d9bb0d05a88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rean-spring-framework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rean-spring-framework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#4 spring-boot-rating-limit/src/main/java/com/rean/service/RatingLimitService.java" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#4 spring-boot-rating-limit/src/main/java/com/rean/service/RatingLimitService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/SpringBootDroolsRuleEngineApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/config/DroolsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/config/DroolsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/rean/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/test/java/com/rean/SpringBootDroolsRuleEngineApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#2 spring-boot-3-first-view/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#2 spring-boot-3-first-view/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/logs/app_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/logs/app_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/java/com/springdatajpa/SpringDataJpaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/java/com/springdatajpa/SpringDataJpaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_C:/Practice/spring-boot-lab" value="2LJxwxPUQ7OhkDe3qRjyN96dIcV" />
+    </persistenceIdMap>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Hen-Heang&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Hen-Heang/spring-boot-lab.git&quot;,
+    &quot;accountId&quot;: &quot;8bd6bc11-826b-4939-9a37-53b6a5c6a011&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="2LJxwxPUQ7OhkDe3qRjyN96dIcV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FixJettyWithSpringBoot3Application.executor": "Run",
+    "Application.SpringBootDroolsRuleEngineApplication.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JavaScript Debug.1. Introduction To Spring Boot.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/theara/project/dev.io/rean-spring-framework",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Practice/spring-boot-lab",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="SpringBootDroolsRuleEngineApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.rean.SpringBootDroolsRuleEngineApplication" />
+      <module name="rean-spring-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.rean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SpringBootDroolsRuleEngineApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,7 +119,23 @@
       <option name="presentableId" value="Default" />
       <updated>1675603228317</updated>
       <workItem from="1675603230271" duration="2000" />
+      <workItem from="1775023930080" duration="1622000" />
+      <workItem from="1775025684915" duration="262000" />
+      <workItem from="1775025998693" duration="110000" />
+      <workItem from="1775026401159" duration="3170000" />
+      <workItem from="1775029628542" duration="2267000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>

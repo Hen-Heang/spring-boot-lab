@@ -4678,3 +4678,809 @@
 2021-11-24 21:48:39 [SpringContextShutdownHook] INFO  AbstractEntityManagerFactoryBean.java:651 - o.s.o.j.LocalContainerEntityManagerFactoryBean.destroy : Closing JPA EntityManagerFactory for persistence unit 'default'
 2021-11-24 21:48:39 [SpringContextShutdownHook] INFO  HikariDataSource.java:350 - com.zaxxer.hikari.HikariDataSource.close : HikariPool-1 - Shutdown initiated...
 2021-11-24 21:48:39 [SpringContextShutdownHook] INFO  HikariDataSource.java:352 - com.zaxxer.hikari.HikariDataSource.close : HikariPool-1 - Shutdown completed.
+2026-04-01 16:25:40 [main] INFO  StartupInfoLogger.java:55 - c.s.SpringDataJpaApplication.logStarting : Starting SpringDataJpaApplication using Java 17.0.17 on DESKTOP-LMR8QFG with PID 17500 (C:\Practice\spring-boot-lab\3. Data Access with Spring\#5 Spring Data JPA\#1 spring-data-jpa\target\classes started by user in C:\Practice\spring-boot-lab\3. Data Access with Spring\#5 Spring Data JPA\#1 spring-data-jpa)
+2026-04-01 16:25:40 [main] INFO  SpringApplication.java:664 - c.s.SpringDataJpaApplication.logStartupProfileInfo : No active profile set, falling back to default profiles: default
+2026-04-01 16:25:41 [main] INFO  RepositoryConfigurationDelegate.java:128 - o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-01 16:25:41 [main] INFO  RepositoryConfigurationDelegate.java:188 - o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn : Finished Spring Data repository scanning in 56 ms. Found 1 JPA repository interfaces.
+2026-04-01 16:25:42 [main] INFO  TomcatWebServer.java:108 - o.s.b.w.e.tomcat.TomcatWebServer.initialize : Tomcat initialized with port(s): 9091 (http)
+2026-04-01 16:25:42 [main] INFO  DirectJDKLog.java:173 - o.a.catalina.core.StandardService.log : Starting service [Tomcat]
+2026-04-01 16:25:42 [main] INFO  DirectJDKLog.java:173 - o.a.catalina.core.StandardEngine.log : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2026-04-01 16:25:42 [main] INFO  DirectJDKLog.java:173 - o.a.c.c.C.[Tomcat].[localhost].[/].log : Initializing Spring embedded WebApplicationContext
+2026-04-01 16:25:42 [main] INFO  ServletWebServerApplicationContext.java:289 - o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext : Root WebApplicationContext: initialization completed in 2140 ms
+2026-04-01 16:25:42 [main] INFO  LogHelper.java:31 - o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-01 16:25:42 [main] INFO  Version.java:44 - org.hibernate.Version.logVersion : HHH000412: Hibernate ORM core version 5.4.32.Final
+2026-04-01 16:25:43 [main] INFO  JavaReflectionManager.java:56 - o.h.annotations.common.Version.<clinit> : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-01 16:25:43 [main] INFO  HikariDataSource.java:110 - com.zaxxer.hikari.HikariDataSource.getConnection : HikariPool-1 - Starting...
+2026-04-01 16:25:44 [main] ERROR HikariPool.java:593 - com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException : HikariPool-1 - Exception during pool initialization.
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318)
+	at com.springdatajpa.SpringDataJpaApplication.main(SpringDataJpaApplication.java:18)
+2026-04-01 16:25:44 [main] WARN  JdbcEnvironmentInitiator.java:132 - o.h.e.j.e.i.JdbcEnvironmentInitiator.initiateService : HHH000342: Could not obtain connection to query metadata
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:613)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:161)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:213)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:358)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:477)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:560)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318)
+	at com.springdatajpa.SpringDataJpaApplication.main(SpringDataJpaApplication.java:18)
+2026-04-01 16:25:44 [main] ERROR AbstractEntityManagerFactoryBean.java:426 - o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory : Failed to initialize JPA EntityManagerFactory: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2026-04-01 16:25:44 [main] WARN  AbstractApplicationContext.java:591 - o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext.refresh : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2026-04-01 16:25:44 [main] INFO  DirectJDKLog.java:173 - o.a.catalina.core.StandardService.log : Stopping service [Tomcat]
+2026-04-01 16:25:44 [main] INFO  ConditionEvaluationReportLoggingListener.java:136 - o.s.b.a.l.ConditionEvaluationReportLoggingListener.logMessage : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2026-04-01 16:25:44 [main] ERROR SpringApplication.java:860 - o.s.boot.SpringApplication.reportFailure : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:771)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:763)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:438)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1318)
+	at com.springdatajpa.SpringDataJpaApplication.main(SpringDataJpaApplication.java:18)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:275)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory.injectServices(DefaultIdentifierGeneratorFactory.java:152)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.injectDependencies(AbstractServiceRegistryImpl.java:286)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:243)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:214)
+	at org.hibernate.boot.internal.InFlightMetadataCollectorImpl.<init>(InFlightMetadataCollectorImpl.java:176)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:127)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1224)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1255)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 17 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:101)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:263)
+	... 34 common frames omitted
+2026-04-01 16:28:22 [main] INFO  StartupInfoLogger.java:55 - c.s.SpringDataJpaApplication.logStarting : Starting SpringDataJpaApplication using Java 17.0.17 on DESKTOP-LMR8QFG with PID 3676 (C:\Practice\spring-boot-lab\3. Data Access with Spring\#5 Spring Data JPA\#1 spring-data-jpa\target\classes started by user in C:\Practice\spring-boot-lab\3. Data Access with Spring\#5 Spring Data JPA\#1 spring-data-jpa)
+2026-04-01 16:28:22 [main] INFO  SpringApplication.java:664 - c.s.SpringDataJpaApplication.logStartupProfileInfo : No active profile set, falling back to default profiles: default
+2026-04-01 16:28:24 [main] INFO  RepositoryConfigurationDelegate.java:128 - o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-04-01 16:28:24 [main] INFO  RepositoryConfigurationDelegate.java:188 - o.s.d.r.c.RepositoryConfigurationDelegate.registerRepositoriesIn : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2026-04-01 16:28:25 [main] INFO  TomcatWebServer.java:108 - o.s.b.w.e.tomcat.TomcatWebServer.initialize : Tomcat initialized with port(s): 9091 (http)
+2026-04-01 16:28:25 [main] INFO  DirectJDKLog.java:173 - o.a.catalina.core.StandardService.log : Starting service [Tomcat]
+2026-04-01 16:28:25 [main] INFO  DirectJDKLog.java:173 - o.a.catalina.core.StandardEngine.log : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2026-04-01 16:28:25 [main] INFO  DirectJDKLog.java:173 - o.a.c.c.C.[Tomcat].[localhost].[/].log : Initializing Spring embedded WebApplicationContext
+2026-04-01 16:28:25 [main] INFO  ServletWebServerApplicationContext.java:289 - o.s.b.w.s.c.ServletWebServerApplicationContext.prepareWebApplicationContext : Root WebApplicationContext: initialization completed in 2592 ms
+2026-04-01 16:28:25 [main] INFO  LogHelper.java:31 - o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-04-01 16:28:25 [main] INFO  Version.java:44 - org.hibernate.Version.logVersion : HHH000412: Hibernate ORM core version 5.4.32.Final
+2026-04-01 16:28:25 [main] INFO  JavaReflectionManager.java:56 - o.h.annotations.common.Version.<clinit> : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2026-04-01 16:28:25 [main] INFO  HikariDataSource.java:110 - com.zaxxer.hikari.HikariDataSource.getConnection : HikariPool-1 - Starting...
+2026-04-01 16:28:26 [main] INFO  HikariDataSource.java:123 - com.zaxxer.hikari.HikariDataSource.getConnection : HikariPool-1 - Start completed.
+2026-04-01 16:28:26 [main] INFO  Dialect.java:175 - org.hibernate.dialect.Dialect.<init> : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
+2026-04-01 16:28:26 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    
+    drop table if exists tbl_book cascade
+2026-04-01 16:28:26 [main] WARN  SqlExceptionHelper.java:230 - o.h.e.jdbc.spi.SqlExceptionHelper.logWarning : SQL Warning Code: 0, SQLState: 00000
+2026-04-01 16:28:26 [main] WARN  SqlExceptionHelper.java:231 - o.h.e.jdbc.spi.SqlExceptionHelper.logWarning : "tbl_book" ??? ??, ???
+2026-04-01 16:28:26 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    
+    create table tbl_book (
+       id  bigserial not null,
+        author varchar(255),
+        price float8,
+        publish_date timestamp,
+        title varchar(255),
+        primary key (id)
+    )
+2026-04-01 16:28:27 [main] INFO  JtaPlatformInitiator.java:52 - o.h.e.t.j.p.i.JtaPlatformInitiator.initiateService : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2026-04-01 16:28:27 [main] INFO  AbstractEntityManagerFactoryBean.java:437 - o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr A]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book1]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr A]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book1]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr A]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book1]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr A]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book1]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr A]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book1]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr A]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book1]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr A]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book1]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr A]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book1]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_0_,
+        book0_.author as author2_0_0_,
+        book0_.price as price3_0_0_,
+        book0_.publish_date as publish_4_0_0_,
+        book0_.title as title5_0_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.id=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [BIGINT] - [0]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    insert 
+    into
+        tbl_book
+        (author, price, publish_date, title) 
+    values
+        (?, ?, ?, ?)
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [2] as [DOUBLE] - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [3] as [TIMESTAMP] - [Wed Apr 01 16:28:27 KST 2026]
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [4] as [VARCHAR] - [Hero Book2]
+2026-04-01 16:28:27 [main] DEBUG SqlStatementLogger.java:144 - org.hibernate.SQL.logStatement : 
+    select
+        book0_.id as id1_0_,
+        book0_.author as author2_0_,
+        book0_.price as price3_0_,
+        book0_.publish_date as publish_4_0_,
+        book0_.title as title5_0_ 
+    from
+        tbl_book book0_ 
+    where
+        book0_.author=?
+2026-04-01 16:28:27 [main] TRACE BasicBinder.java:64 - o.h.type.descriptor.sql.BasicBinder.bind : binding parameter [1] as [VARCHAR] - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [9]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [10]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [11]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [12]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [13]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [14]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [15]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [16]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [17]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [18]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [19]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [20]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [21]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([id1_0_] : [BIGINT]) - [22]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([author2_0_] : [VARCHAR]) - [Mr B]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([price3_0_] : [DOUBLE]) - [29.0]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([publish_4_0_] : [TIMESTAMP]) - [2026-04-01 16:28:27.337]
+2026-04-01 16:28:27 [main] TRACE BasicExtractor.java:60 - o.h.t.descriptor.sql.BasicExtractor.extract : extracted value ([title5_0_] : [VARCHAR]) - [Hero Book2]
+2026-04-01 16:28:27 [main] WARN  JpaBaseConfiguration.java:221 - o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration.openEntityManagerInViewInterceptor : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-04-01 16:28:27 [main] DEBUG RequestMappingHandlerAdapter.java:625 - o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2026-04-01 16:28:27 [main] DEBUG AbstractHandlerMethodMapping.java:367 - o.s.w.s.m.m.a.RequestMappingHandlerMapping.handlerMethodsInitialized : 2 mappings in 'requestMappingHandlerMapping'
+2026-04-01 16:28:27 [main] DEBUG SimpleUrlHandlerMapping.java:188 - o.s.w.s.h.SimpleUrlHandlerMapping.logMappings : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2026-04-01 16:28:27 [main] DEBUG ExceptionHandlerExceptionResolver.java:307 - o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver.initExceptionHandlerAdviceCache : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2026-04-01 16:28:27 [main] INFO  TomcatWebServer.java:220 - o.s.b.w.e.tomcat.TomcatWebServer.start : Tomcat started on port(s): 9091 (http) with context path ''
+2026-04-01 16:28:27 [main] INFO  StartupInfoLogger.java:61 - c.s.SpringDataJpaApplication.logStarted : Started SpringDataJpaApplication in 6.021 seconds (JVM running for 7.226)
