@@ -30,7 +30,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<maven.compiler.source>19</maven.compiler.source>
 		<maven.compiler.target>19</maven.compiler.target>
-		<java.version>19</java.version>
+		<java.version>21</java.version>
 		<spring.boot.dependencies.version>3.0.5</spring.boot.dependencies.version>
 		<spring.boot.maven.dependencies.plugin.version>3.0.5</spring.boot.maven.dependencies.plugin.version>
 		<spring.cloud-version>2022.0.1</spring.cloud-version>

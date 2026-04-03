@@ -1,6 +1,6 @@
-import com.rean.dto.StudentRequest;
+import com.learn.dto.StudentRequest;
 
-global com.rean.dto.StudentResponse studentResp;
+global com.learn.dto.StudentResponse studentResp;
 
 dialect "mvel"
 

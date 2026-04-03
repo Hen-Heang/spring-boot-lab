@@ -54,7 +54,7 @@ java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, j
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
-	at com.rean.SpringBoot3GettingStartedApplication.main(SpringBoot3GettingStartedApplication.java:10)
+	at com.learn.SpringBoot3GettingStartedApplication.main(SpringBoot3GettingStartedApplication.java:10)
 [2026-04-01 23:15:35,520] [main] INFO  [customer-services,,] SQL dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
 [2026-04-01 23:15:35,529] [main] WARN  [customer-services,,] o.h.d.PostgreSQLPGObjectJdbcType - PostgreSQL JDBC driver classes are inaccessible and thus, certain DDL types like JSONB, JSON, GEOMETRY can not be used!
 java.lang.ClassNotFoundException: org.postgresql.util.PGobject
@@ -94,7 +94,7 @@ java.lang.ClassNotFoundException: org.postgresql.util.PGobject
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
-	at com.rean.SpringBoot3GettingStartedApplication.main(SpringBoot3GettingStartedApplication.java:10)
+	at com.learn.SpringBoot3GettingStartedApplication.main(SpringBoot3GettingStartedApplication.java:10)
 [2026-04-01 23:15:35,665] [main] INFO  [customer-services,,] h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [2026-04-01 23:15:35,671] [main] INFO  [customer-services,,] ontainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 [2026-04-01 23:15:35,690] [main] WARN  [customer-services,,] onfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
@@ -160,7 +160,7 @@ java.lang.RuntimeException: Driver org.h2.Driver claims to not accept jdbcUrl, j
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
-	at com.rean.SpringBoot3GettingStartedApplication.main(SpringBoot3GettingStartedApplication.java:10)
+	at com.learn.SpringBoot3GettingStartedApplication.main(SpringBoot3GettingStartedApplication.java:10)
 [2026-04-01 23:18:15,837] [main] INFO  [customer-services,,] SQL dialect                      - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect
 [2026-04-01 23:18:15,845] [main] WARN  [customer-services,,] o.h.d.PostgreSQLPGObjectJdbcType - PostgreSQL JDBC driver classes are inaccessible and thus, certain DDL types like JSONB, JSON, GEOMETRY can not be used!
 java.lang.ClassNotFoundException: org.postgresql.util.PGobject
@@ -200,7 +200,7 @@ java.lang.ClassNotFoundException: org.postgresql.util.PGobject
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:310)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1304)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1293)
-	at com.rean.SpringBoot3GettingStartedApplication.main(SpringBoot3GettingStartedApplication.java:10)
+	at com.learn.SpringBoot3GettingStartedApplication.main(SpringBoot3GettingStartedApplication.java:10)
 [2026-04-01 23:18:15,959] [main] INFO  [customer-services,,] h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
 [2026-04-01 23:18:15,965] [main] INFO  [customer-services,,] ontainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
 [2026-04-01 23:18:15,982] [main] WARN  [customer-services,,] onfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning

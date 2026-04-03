@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af52dc9-3d59-413a-af8e-6d9bb0d05a88" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/logs/app_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/logs/app_log.log" afterDir="false" />
     </list>
-    <list default="true" id="7af52dc9-3d59-413a-af8e-6d9bb0d05a88" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -408,7 +405,6 @@
       <workItem from="1775026401159" duration="3170000" />
       <workItem from="1775029628542" duration="2267000" />
       <workItem from="1775052554898" duration="418000" />
-
     </task>
     <servers />
   </component>
