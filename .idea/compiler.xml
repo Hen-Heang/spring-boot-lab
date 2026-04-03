@@ -12,9 +12,7 @@
         <module name="clients" />
         <module name="notification-services" />
         <module name="Spring-Boot-Data-Redis" />
-        <module name="spring-bean-scope" />
         <module name="spring-data-rest" />
-        <module name="spring-boot-drools-rule-engine" />
         <module name="eureka-server" />
         <module name="spring-boot-3-bean-config" />
         <module name="spring-boot-elasticsearch" />
@@ -26,22 +24,17 @@
         <module name="fraud-services" />
         <module name="spring-boot-3-jdbc" />
         <module name="consumer-services" />
-        <module name="fix-jetty-with-spring-boot-3" />
         <module name="spring-boot-3-web-app" />
         <module name="customer-services" />
-        <module name="generic-rest-controller" />
         <module name="spring-boot-3-first-view" />
         <module name="spring-boot-redis-stack" />
-        <module name="#1 spring boot jdbc-template" />
         <module name="spring-boot-data-redis-cache" />
         <module name="spring-cloud-sleuth-zipkin" />
-        <module name="calculate-income-tax" />
         <module name="rabbitmq" />
         <module name="Cambodia-Address-Rest-API" />
         <module name="rest-api" />
         <module name="rabbitmq-message-with-spring-boot-3" />
         <module name="config-server" />
-        <module name="spring-boot-qr-code" />
         <module name="spring-data-jpa-relationship" />
         <module name="security-default-config" />
         <module name="producer-service" />
@@ -52,6 +45,15 @@
         <module name="spring-boot-graphql" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="#1 spring boot jdbc-template" target="11" />
+      <module name="calculate-income-tax" target="11" />
+      <module name="fix-jetty-with-spring-boot-3" target="21" />
+      <module name="generic-rest-controller" target="11" />
+      <module name="spring-bean-scope" target="11" />
+      <module name="spring-boot-drools-rule-engine" target="11" />
+      <module name="spring-boot-qr-code" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

@@ -8,13 +8,13 @@
 		<version>3.3.5</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.rean</groupId>
+	<groupId>com.learn</groupId>
 	<artifactId>spring-boot-config-and-profiles</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-config-and-profiles</name>
 	<description>Spring Configuration - @Value, @ConfigurationProperties, Spring Profiles</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

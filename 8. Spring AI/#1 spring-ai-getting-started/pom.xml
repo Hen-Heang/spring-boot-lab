@@ -14,7 +14,7 @@
 	<name>spring-ai-getting-started</name>
 	<description>Spring AI 1.0 - Chat, Prompt Templates, Streaming</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 		<spring-ai.version>1.0.0</spring-ai.version>
 	</properties>
 	<dependencies>

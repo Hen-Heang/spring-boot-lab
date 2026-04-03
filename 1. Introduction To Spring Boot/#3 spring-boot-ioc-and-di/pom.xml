@@ -8,13 +8,13 @@
 		<version>3.3.5</version>
 		<relativePath/>
 	</parent>
-	<groupId>com.rean</groupId>
+	<groupId>com.learn</groupId>
 	<artifactId>spring-boot-ioc-and-di</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>spring-boot-ioc-and-di</name>
 	<description>Spring IoC Container - Dependency Injection, Bean Scopes, Bean Lifecycle</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>

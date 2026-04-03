@@ -5,8 +5,107 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7af52dc9-3d59-413a-af8e-6d9bb0d05a88" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringBoot RoadMap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/logs/app_log.log" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#5 Spring Data JPA/#1 spring-data-jpa/logs/app_log.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/src/main/java/com/learn/FixJettyWithSpringBoot3Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/src/test/java/com/learn/FixJettyWithSpringBoot3ApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/src/main/java/com/learn/QRCodeGeneratorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/src/main/java/com/learn/QRCodeGeneratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/src/main/java/com/learn/SpringBootQrCodeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/src/main/resources/templates/qrcode.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/src/test/java/com/learn/SpringBootQrCodeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/learn/SpringBootDroolsRuleEngineApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/learn/config/DroolsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/learn/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/learn/dto/StudentRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/learn/dto/StudentResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/java/com/learn/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/main/resources/role/student.drl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/src/test/java/com/learn/SpringBootDroolsRuleEngineApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/src/main/java/com/learn/CalculateIncomeTaxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/src/main/java/com/learn/IncomeTaxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/src/main/java/com/learn/IncomeTaxRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/src/main/java/com/learn/IncomeTaxResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/src/main/java/com/learn/IncomeTaxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/src/test/java/com/learn/CalculateIncomeTaxApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/0. Spring Framework Tips/#8 multiple-file-upload/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/0. Spring Framework Tips/#8 multiple-file-upload/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#1 spring-boot-3-getting-started/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#1 spring-boot-3-getting-started/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/rean/SpringBootIocAndDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/learn/SpringBootIocAndDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/rean/controller/DiDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/learn/controller/DiDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/rean/di/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/learn/di/OrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/rean/di/PayPalPaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/learn/di/PayPalPaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/rean/di/PaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/learn/di/PaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/rean/di/StripePaymentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/learn/di/StripePaymentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/rean/scope/ScopeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/learn/scope/ScopeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/rean/SpringBootConfigAndProfilesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/learn/SpringBootConfigAndProfilesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/rean/config/AppProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/learn/config/AppProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/rean/controller/ConfigDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/learn/controller/ConfigDemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/rean/profile/ConsoleNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/learn/profile/ConsoleNotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/rean/profile/EmailNotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/learn/profile/EmailNotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/rean/profile/NotificationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/1. Introduction To Spring Boot/#4 spring-boot-config-and-profiles/src/main/java/com/learn/profile/NotificationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2. Web Application with Spring Boot/#1 spring-boot-3-bean-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2. Web Application with Spring Boot/#1 spring-boot-3-bean-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2. Web Application with Spring Boot/#2 spring-boot-3-web-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2. Web Application with Spring Boot/#2 spring-boot-3-web-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2. Web Application with Spring Boot/#3 spring-boot-webflux/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/2. Web Application with Spring Boot/#3 spring-boot-webflux/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#10 spring-boot-graphql/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#10 spring-boot-graphql/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#11 spring-batch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#11 spring-batch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#2 spring-boot-3-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#2 spring-boot-3-jdbc/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#3 spring-boot-3-data-jpa/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#3 spring-boot-3-data-jpa/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#6 Spring-Boot-Data-Redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#6 Spring-Boot-Data-Redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#7 spring-boot-redis-stack/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#7 spring-boot-redis-stack/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#8 spring-boot-data-redis-cache/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#8 spring-boot-data-redis-cache/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3. Data Access with Spring/#9 spring-boot-elasticsearch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/3. Data Access with Spring/#9 spring-boot-elasticsearch/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/rest-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/rest-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-database-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-database-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-default-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-default-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-inmemory-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4. Security with Spring Boot/#1 spring-boot-3-security/security-inmemory-config/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4. Security with Spring Boot/#2 spring-security-jwt-authorization/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/4. Security with Spring Boot/#2 spring-security-jwt-authorization/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/consumer-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/consumer-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/producer-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/5. Messaging with Spring Boot/kafka-message-with-spring-boot-3/producer-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. Messaging with Spring Boot/rabbitmq-message-with-spring-boot-3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/5. Messaging with Spring Boot/rabbitmq-message-with-spring-boot-3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/6. Testing with Spring Boot/#1 spring-boot-testing/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/6. Testing with Spring Boot/#1 spring-boot-testing/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Spring Integration and Spring Cloud/#2 spring-cloud-sleuth-zipkin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/7. Spring Integration and Spring Cloud/#2 spring-cloud-sleuth-zipkin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Spring Integration and Spring Cloud/#3 spring-boot-actuator-prometheus/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/7. Spring Integration and Spring Cloud/#3 spring-boot-actuator-prometheus/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/8. Spring AI/#1 spring-ai-getting-started/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/8. Spring AI/#1 spring-ai-getting-started/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/customer-services.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/customer-services.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices with spring boot 3/circuit-breaker-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices with spring boot 3/circuit-breaker-demo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices with spring boot 3/config-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices with spring boot 3/config-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices with spring boot 3/eureka-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices with spring boot 3/eureka-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices with spring boot 3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices with spring boot 3/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,43 +148,54 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.FixJettyWithSpringBoot3Application.executor": "Run",
-    "Application.SpringBootDroolsRuleEngineApplication.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "JavaScript Debug.1. Introduction To Spring Boot.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.SpringBoot3GettingStartedApplication.executor": "Run",
-    "WebServerToolWindowFactoryState": "false",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/mac/Documents/API-Spring/spring-boot-lab",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.FixJettyWithSpringBoot3Application.executor&quot;: &quot;Run&quot;,
+    &quot;Application.SpringBootDroolsRuleEngineApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JavaScript Debug.1. Introduction To Spring Boot.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.FixJettyWithSpringBoot3Application.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringBoot3GettingStartedApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.SpringBootQrCodeApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/mac/Documents/API-Spring/spring-boot-lab&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Practice\spring-boot-lab\0. Spring Framework Tips" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -95,14 +205,25 @@
         <option value="SpringBootApplicationConfigurationType" />
       </set>
     </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="SpringBootQrCodeApplication" value="FAILED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringBoot3GettingStartedApplication">
+  <component name="RunManager" selected="Spring Boot.SpringBootQrCodeApplication">
     <configuration name="FixJettyWithSpringBoot3Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.rean.FixJettyWithSpringBoot3Application" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.FixJettyWithSpringBoot3Application" />
       <module name="fix-jetty-with-spring-boot-3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rean.*" />
+          <option name="PATTERN" value="com.learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,10 +233,10 @@
     </configuration>
     <configuration name="SpringBootDroolsRuleEngineApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.rean.SpringBootDroolsRuleEngineApplication" />
-      <module name="rean-spring-framework" />
+      <module name="learn-spring-framework" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.rean.*" />
+          <option name="PATTERN" value="com.learn.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,56 +246,56 @@
     </configuration>
     <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="api-gateway" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.apigateway.ApiGatewayApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.apigateway.ApiGatewayApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CalculateIncomeTaxApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="calculate-income-tax" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.CalculateIncomeTaxApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.CalculateIncomeTaxApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CambodiaAddressRestApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Cambodia-Address-Rest-API" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.CambodiaAddressRestApiApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.CambodiaAddressRestApiApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ConsumerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="consumer-services" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.ConsumerServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.ConsumerServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="customer-services" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.customer.CustomerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.customer.CustomerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="EurekaServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="eureka-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.eurekaserver.EurekaServerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.eurekaserver.EurekaServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FixJettyWithSpringBoot3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="fix-jetty-with-spring-boot-3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.FixJettyWithSpringBoot3Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.FixJettyWithSpringBoot3Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="FraudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="fraud-services" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.fraud.FraudApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.fraud.FraudApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,56 +309,56 @@
     </configuration>
     <configuration name="MultipleFileUploadApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="multiple-file-upload" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.MultipleFileUploadApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.MultipleFileUploadApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="NotificationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="notification-services" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.notification.NotificationApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.notification.NotificationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ProducerServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="producer-service" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.ProducerServiceApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.ProducerServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="RabbitmqMessageWithSpringBoot3Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="rabbitmq-message-with-spring-boot-3" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.RabbitmqMessageWithSpringBoot3Application" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.RabbitmqMessageWithSpringBoot3Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="ReloadSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="reload-spring-application" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.ReloadSpringApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.ReloadSpringApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="security-default-config" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SecurityApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SecurityApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SecurityDatabaseApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="security-database-config" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SecurityDatabaseApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SecurityDatabaseApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SecurityInMemoryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="security-inmemory-config" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SecurityInMemoryApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SecurityInMemoryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -245,7 +366,7 @@
     <configuration name="SppringBootElasticsearchApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="spring-boot-elasticsearch" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SppringBootElasticsearchApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SppringBootElasticsearchApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -259,98 +380,98 @@
     </configuration>
     <configuration name="SpringBoot3BeanConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-3-bean-config" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBoot3BeanConfigApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBoot3BeanConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBoot3DataJpaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-3-data-jpa" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBoot3DataJpaApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBoot3DataJpaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBoot3FirstViewApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-3-first-view" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBoot3FirstViewApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBoot3FirstViewApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBoot3GettingStartedApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-3-getting-started" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBoot3GettingStartedApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBoot3GettingStartedApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBoot3JdbcApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-3-jdbc" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBoot3JdbcApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBoot3JdbcApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBoot3WebAppApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-3-web-app" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBoot3WebAppApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBoot3WebAppApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootDataRedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="Spring-Boot-Data-Redis" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBootDataRedisApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBootDataRedisApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootDataRedisCacheApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-data-redis-cache" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBootDataRedisCacheApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBootDataRedisCacheApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootDroolsRuleEngineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-drools-rule-engine" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBootDroolsRuleEngineApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBootDroolsRuleEngineApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootGraphqlApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-graphql" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBootGraphqlApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBootGraphqlApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootQrCodeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-qr-code" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBootQrCodeApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBootQrCodeApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootRatingLimitApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-rating-limit" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBootRatingLimitApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBootRatingLimitApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringBootRedisStackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-boot-redis-stack" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringBootRedisStackApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringBootRedisStackApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringCloudSleuthZipkinApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-cloud-sleuth-zipkin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringCloudSleuthZipkinApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringCloudSleuthZipkinApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -364,21 +485,21 @@
     </configuration>
     <configuration name="SpringDataJpaRelationshipApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-data-jpa-relationship" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringDataJpaRelationshipApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringDataJpaRelationshipApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringDataRestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-data-rest" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringDataRestApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringDataRestApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="SpringSecurityJwtAuthorizationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="spring-security-jwt-authorization" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.rean.SpringSecurityJwtAuthorizationApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.learn.SpringSecurityJwtAuthorizationApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -405,11 +526,24 @@
       <workItem from="1775026401159" duration="3170000" />
       <workItem from="1775029628542" duration="2267000" />
       <workItem from="1775052554898" duration="418000" />
+      <workItem from="1775181310064" duration="11642000" />
+      <workItem from="1775202680422" duration="1873000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/1. Introduction To Spring Boot/#3 spring-boot-ioc-and-di/src/main/java/com/learn/SpringBootIocAndDiApplication.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/rean-spring-framework.iml" filepath="$PROJECT_DIR$/.idea/rean-spring-framework.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learn-spring-framework.iml" filepath="$PROJECT_DIR$/.idea/learn-spring-framework.iml" />
     </modules>
   </component>
 </project>

@@ -52,6 +52,14 @@
         <option value="$PROJECT_DIR$/microservices with spring boot 3/rabbitmq/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#1 fix-jetty-with-spring-boot-3/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#3 spring-boot-qr-code/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#5 spring-boot-drools-rule-engine/pom.xml" />
+        <option value="$PROJECT_DIR$/0. Spring Framework Tips/#6 calculate-income-tax/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="jdk-17.0.17.10-hotspot" project-jdk-type="JavaSDK" />
 </project>

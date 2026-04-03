@@ -14,7 +14,7 @@
 	<name>spring-boot-webflux</name>
 	<description>Spring WebFlux - Reactive REST API with R2DBC (annotation + functional routing)</description>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
